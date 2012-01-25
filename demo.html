@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="jquery.fixed.js" type="text/javascript" charset="utf-8"></script>
+  
+  <style type="text/css" media="screen">
+    body { height: 1400px; }
+    #Container { width: 200px; background: #eaeaea; height: 600px; margin-top: 100px; position: relative; }
+    #Block { height: 200px; background: red; }
+  </style>
+</head>
+<body>
+  <div id="Container">
+    <div id="Block"></div>
+  </div>
+
+  <script type="text/javascript" charset="utf-8">
+    $("#Block").fixedIn("#Container");
+  </script>
+</body>
+</html>
